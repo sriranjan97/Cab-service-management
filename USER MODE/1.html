@@ -1,0 +1,128 @@
+
+<!DOCTYPE html>
+
+<html>
+	<head>
+		<title>CABS FOR SURE</title>
+	<div class="w3-container w3-brown">
+  <h1>CABS FOR SURE</h1>
+</div>
+
+	<meta charset="utf-8" />
+	<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Allerta+Stencil">
+
+
+	</head>
+	<body >
+	<form action="BOOKING.php" method="post"> 
+	<pre> 
+	<div class="w3-container">
+  <h1 class="w3-center w3-animate-left">Your destination is our goal!</h1>
+</div>
+<div class="w3-panel w3-white w3-round-xlarge">
+  <p>Bangalore is a huge metropolitan city that grows every second.We strive to make you reach your destination in convience and satisfaction.</p>
+</div>
+<h1> Enter the details </h1>
+	
+	<table>
+	<tr>
+		<th><i>Passenger_ID:</i></th>
+		<td><input type="text" name="USER_ID"/></td>
+	</tr> 
+	<tr>
+		<th><i>Passenger_NAME:</i></th>
+		<td><input type="text" name="USER_NAME"/></td>
+	</tr>
+
+	
+										 <tr>
+										<select name="TYPE" >
+									    <option value="">Select a type</option>
+									    <option value="MICRO">MICRO</option>
+									    <option value="MINI">MINI</option>
+									    <option value="PRIME">PRIME</option>
+									    <option value="AUTO">AUTO</option>
+									    <option value="MEGA">MEGA</option>
+									 	</select>
+									 </>
+										 <b>
+										 	
+										  <select name="LOC_NAME">
+										    <option value="">Select a location</option>
+											<option value="BANSHANKARI">BANSHANKARI</option>
+										    <option value="JAYANAGAR">JAYANAGAR</option>
+										    <option value="KORMANGALA">KORMANGALA</option>
+										    <option value="MALLESHWARAM">MALLESHWARAM</option>
+										    
+
+										 	</select>
+										 </b>
+
+	<tr>
+		<td><input type="submit" value="BOOK"/>
+		
+	</tr>
+	</table> </pre>
+	</form>
+	<form action="VIEWDETAILS.php" method="post">
+	<pre>
+	<center>
+		<h1> Want to know more about your booking </h1><br/>
+	<table>
+	<tr>
+		<th>Passenger ID </th>
+		<td><input type="text" name="USER_ID"/></td>
+	</tr>
+	<tr>
+		<td><input type="submit"  value="GO!"/></td>
+		
+	</tr>
+	</table> </center> </pre> </form>
+
+	<form action="DELETEBOOK.php" method="post">
+	<pre>
+	<center>
+		<h1>BOOKING CANCELLATIONS!We ll miss you!</h1><br/>
+	<table>
+	<tr>
+		<th>Booking ID </th>
+		<td><input type="text" name="BOOK_ID"/></td>
+	</tr>
+	<tr>
+		<td><input type="submit"  value="SUBMIT"/></td>
+	</tr>
+	</table> </center> </pre> </form>
+
+
+
+</body>
+
+<style>
+body
+{ 	
+		
+	 background-image: url("./hh.png");
+	 background-size: cover;
+	border: 10px solid black;
+    padding: 35px;
+    
+    background-repeat: no-repeat;
+    background-origin: content-box
+}
+
+h1
+{	
+	font-family: courier;
+	color: yellow;
+ }
+tr
+{
+	color:white;
+}
+
+
+</style>
+
+</html>	
+
